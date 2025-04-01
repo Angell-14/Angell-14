@@ -61,7 +61,7 @@
 
 <h3 align="left">🔥   My Stats :</h3>
 
-![Snake animation](https://github.com/yourusername/yourusername/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/Angell-14/Angell-14/blob/output/github-contribution-grid-snake.svg)
 
 ###
 
