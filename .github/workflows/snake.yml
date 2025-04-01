@@ -16,7 +16,10 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: snake.svg  # Fix: Generate snake.svg in the current directory
+
+      - name: Create Output Directory
+        run: mkdir -p dist && mv snake.svg dist/github-contribution-grid-snake.svg  # Fix: Ensure dist/ exists
 
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
